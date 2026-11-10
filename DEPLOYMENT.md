@@ -33,9 +33,11 @@ HTTP/asset evidence: artifacts/production-verification.json. Screenshots: artifa
 
 ## GitHub repository
 
-GitHub is not connected: the CLI is unauthenticated. The eligible source is retained in a local repository on main, with no existing history or remote. No GitHub repository URL exists yet; automatic Git-push deployment is not configured.
+Source repository: https://github.com/suryansh71234567/pranaflow
 
-To enable it, complete `gh auth login --hostname github.com --git-protocol https --web` with the intended personal account. Then create a new repository without overwriting existing repositories, commit/push the source, and connect that repository to this existing Vercel project. Never commit environment files or credentials.
+The complete eligible project has been committed and pushed to main. Environment files and Vercel account/project state remain excluded. The repository is not yet connected to Vercel for automatic Git-push deployments; the existing production deployment was uploaded directly through the CLI.
+
+To collaborate, invite your friend's GitHub username through repository Settings > Collaborators. Have them clone the repository, create a branch, run npm ci and npm run dev, and submit a pull request. They do not need your Vercel credentials to edit or test the app.
 
 ## Future updates
 
