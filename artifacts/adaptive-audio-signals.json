@@ -1,0 +1,246 @@
+{
+  "passed": 13,
+  "total": 13,
+  "rows": [
+    {
+      "name": "Stillness guided output / 4-second fade / headroom",
+      "pass": true,
+      "measurements": {
+        "steady": {
+          "rms": 0.082383671655409,
+          "peak": 0.17449001967906952,
+          "maxSampleJump": 0.025121618062257767,
+          "peakAt": 5.73469387755102
+        },
+        "onset": {
+          "rms": 0.00007881844293624223,
+          "peak": 0.0002669475506991148,
+          "maxSampleJump": 0.000022314503439702094,
+          "peakAt": 0.04929705215419501
+        }
+      }
+    },
+    {
+      "name": "Warmth guided output / 4-second fade / headroom",
+      "pass": true,
+      "measurements": {
+        "steady": {
+          "rms": 0.08378334479960588,
+          "peak": 0.1783558428287506,
+          "maxSampleJump": 0.02359747840091586,
+          "peakAt": 6.770975056689342
+        },
+        "onset": {
+          "rms": 0.00008043069180294483,
+          "peak": 0.00028966477839276195,
+          "maxSampleJump": 0.000022375053958967328,
+          "peakAt": 0.049160997732426305
+        }
+      }
+    },
+    {
+      "name": "Space guided output / 4-second fade / headroom",
+      "pass": true,
+      "measurements": {
+        "steady": {
+          "rms": 0.08134951887641749,
+          "peak": 0.17057228088378906,
+          "maxSampleJump": 0.02581779845058918,
+          "peakAt": 6.361768707482994
+        },
+        "onset": {
+          "rms": 0.0000789883781419313,
+          "peak": 0.0002642213075887412,
+          "maxSampleJump": 0.00002304808731423691,
+          "peakAt": 0.0490702947845805
+        }
+      }
+    },
+    {
+      "name": "Inhale rises in audible pitch and brightness",
+      "pass": true,
+      "measurements": {
+        "early": {
+          "levels": {
+            "rms": 0.06211606962710785,
+            "peak": 0.1347699612379074,
+            "maxSampleJump": 0.013026773929595947,
+            "peakAt": 5.916099773242631
+          },
+          "spectral": {
+            "dominantHz": 231.48193359375,
+            "centroidHz": 245.7148684836885
+          }
+        },
+        "late": {
+          "levels": {
+            "rms": 0.08734013624634084,
+            "peak": 0.18394780158996582,
+            "maxSampleJump": 0.027755524963140488,
+            "peakAt": 5.080090702947846
+          },
+          "spectral": {
+            "dominantHz": 317.61474609375,
+            "centroidHz": 337.41600001592207
+          }
+        }
+      }
+    },
+    {
+      "name": "Exhale audibly descends and softens",
+      "pass": true,
+      "measurements": {
+        "early": {
+          "levels": {
+            "rms": 0.08731255465312585,
+            "peak": 0.18259331583976746,
+            "maxSampleJump": 0.026615177281200886,
+            "peakAt": 5.461904761904762
+          },
+          "spectral": {
+            "dominantHz": 317.61474609375,
+            "centroidHz": 338.4228414418561
+          }
+        },
+        "late": {
+          "levels": {
+            "rms": 0.06212789777334065,
+            "peak": 0.1349630355834961,
+            "maxSampleJump": 0.012907939963042736,
+            "peakAt": 5.470884353741496
+          },
+          "spectral": {
+            "dominantHz": 231.48193359375,
+            "centroidHz": 246.0947922991246
+          }
+        }
+      }
+    },
+    {
+      "name": "Upper and lower holds have distinct sustained signatures",
+      "pass": true,
+      "measurements": {
+        "upper": {
+          "levels": {
+            "rms": 0.06704390415125451,
+            "peak": 0.13344426453113556,
+            "maxSampleJump": 0.020523288287222385,
+            "peakAt": 6.588163265306123
+          },
+          "spectral": {
+            "dominantHz": 328.38134765625,
+            "centroidHz": 348.58881841729897
+          }
+        },
+        "lower": {
+          "levels": {
+            "rms": 0.037643598154558415,
+            "peak": 0.08101539313793182,
+            "maxSampleJump": 0.005747677758336067,
+            "peakAt": 5.489070294784581
+          },
+          "spectral": {
+            "dominantHz": 220.71533203125,
+            "centroidHz": 213.63777514898842
+          }
+        }
+      }
+    },
+    {
+      "name": "Mute and zero volume silence every layer",
+      "pass": true,
+      "measurements": {
+        "mute": {
+          "rms": 0,
+          "peak": 0,
+          "maxSampleJump": 0,
+          "peakAt": 0
+        },
+        "zero": {
+          "rms": 0,
+          "peak": 0,
+          "maxSampleJump": 0,
+          "peakAt": 0
+        }
+      }
+    },
+    {
+      "name": "Four-second fade-out ends in digital silence",
+      "pass": true,
+      "measurements": {
+        "rms": 0,
+        "peak": 0,
+        "maxSampleJump": 0,
+        "peakAt": 0
+      }
+    },
+    {
+      "name": "Full master volume remains unclipped",
+      "pass": true,
+      "measurements": {
+        "rms": 0.22871735975417978,
+        "peak": 0.4813935458660126,
+        "maxSampleJump": 0.07375034759752452,
+        "peakAt": 5.288662131519274
+      }
+    },
+    {
+      "name": "Signal loss returns to a quiet non-guiding foundation",
+      "pass": true,
+      "measurements": {
+        "rms": 0.016093518703464597,
+        "peak": 0.02772699110209942,
+        "maxSampleJump": 0.001257898285984993,
+        "peakAt": 6.743945578231292
+      }
+    },
+    {
+      "name": "Ambient intensity is independent of the primary guide",
+      "pass": true,
+      "measurements": {
+        "rms": 0.08065765096881465,
+        "peak": 0.1391645222902298,
+        "maxSampleJump": 0.020340068265795708,
+        "peakAt": 5.238367346938776
+      }
+    },
+    {
+      "name": "Rendered custom cycle follows the actual ring state continuously",
+      "pass": true,
+      "measurements": {
+        "inhaleStart": {
+          "dominantHz": 231.48193359375,
+          "centroidHz": 243.95966903450744
+        },
+        "inhaleEnd": {
+          "dominantHz": 279.931640625,
+          "centroidHz": 297.5605491966495
+        },
+        "exhaleStart": {
+          "dominantHz": 312.2314453125,
+          "centroidHz": 332.0531798470848
+        },
+        "exhaleEnd": {
+          "dominantHz": 247.6318359375,
+          "centroidHz": 262.3806774075896
+        },
+        "continuity": {
+          "rms": 0.06859248830381061,
+          "peak": 0.18111613392829895,
+          "maxSampleJump": 0.03065980225801468,
+          "peakAt": 6.943990929705215
+        }
+      }
+    },
+    {
+      "name": "90-second adaptive run crosses repeated texture boundaries without clipping",
+      "pass": true,
+      "measurements": {
+        "rms": 0.06937272209965491,
+        "peak": 0.18107609450817108,
+        "maxSampleJump": 0.027166674844920635,
+        "peakAt": 59.99242630385488
+      }
+    }
+  ]
+}

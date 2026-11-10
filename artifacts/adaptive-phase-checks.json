@@ -1,0 +1,26 @@
+[
+  {
+    "ring": "Inhale",
+    "audio": "inhale",
+    "expected": "inhale",
+    "context": "running"
+  },
+  {
+    "ring": "Hold",
+    "audio": "hold-in",
+    "expected": "hold-in",
+    "context": "running"
+  },
+  {
+    "ring": "Exhale",
+    "audio": "exhale",
+    "expected": "exhale",
+    "context": "running"
+  },
+  {
+    "ring": "Rest",
+    "audio": "hold-out",
+    "expected": "hold-out",
+    "context": "running"
+  }
+]

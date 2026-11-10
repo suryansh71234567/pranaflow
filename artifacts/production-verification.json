@@ -1,0 +1,89 @@
+{
+  "production_url": "https://prana-flow-iko103.vercel.app",
+  "deployment_id": "dpl_BMxrSLj4Xx9mQpHKiANqb9RdkYx6",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "actual_app_html": true,
+      "public_without_auth": true
+    },
+    {
+      "route": "/library",
+      "status": 200,
+      "actual_app_html": true,
+      "public_without_auth": true
+    },
+    {
+      "route": "/progress",
+      "status": 200,
+      "actual_app_html": true,
+      "public_without_auth": true
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "actual_app_html": true,
+      "public_without_auth": true
+    }
+  ],
+  "critical_assets": [
+    {
+      "asset": "/wasm/vision_wasm_module_internal.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 322082,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/wasm/vision_wasm_module_internal.wasm",
+      "status": 200,
+      "content_type": "application/wasm",
+      "bytes": 11153641,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/models/pose_landmarker_lite.task",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 5777746,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/assets/index-DdmWgP6s.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 328288,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/assets/vision.worker-bHjD-4F0.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 130552,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/assets/index-dB8e-XS2.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 52364,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "bytes": 14200,
+      "matches_local_build": true
+    },
+    {
+      "asset": "/assets/manrope-latin-400-normal-PaqtzbVb.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "bytes": 14108,
+      "matches_local_build": true
+    }
+  ],
+  "all_passed": true
+}

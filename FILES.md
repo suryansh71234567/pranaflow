@@ -1,0 +1,52 @@
+# Project file inventory
+
+Source, assets and generated verification artifacts. `dist/` and `node_modules/` are generated and excluded. The original workspace was empty; the latest audio changes are detailed in [AUDIO-REPORT.md](AUDIO-REPORT.md).
+
+| File | Bytes |
+| --- | ---: |
+| [.gitignore](.gitignore) | 35 |
+| [artifacts/adaptive-audio-signals.json](artifacts/adaptive-audio-signals.json) | 6,731 |
+| [artifacts/adaptive-breathing-sample.wav](artifacts/adaptive-breathing-sample.wav) | 2,822,444 |
+| [artifacts/adaptive-phase-checks.json](artifacts/adaptive-phase-checks.json) | 424 |
+| [artifacts/audio-preview.jpg](artifacts/audio-preview.jpg) | 108,783 |
+| [artifacts/audio-signal-results.json](artifacts/audio-signal-results.json) | 3,058 |
+| [artifacts/desktop-preview.jpg](artifacts/desktop-preview.jpg) | 108,768 |
+| [artifacts/mobile-preview.jpg](artifacts/mobile-preview.jpg) | 66,396 |
+| [AUDIO-REPORT.md](AUDIO-REPORT.md) | 9,419 |
+| [index.html](index.html) | 524 |
+| [package-lock.json](package-lock.json) | 66,816 |
+| [package.json](package.json) | 839 |
+| [public/models/pose_landmarker_lite.task](public/models/pose_landmarker_lite.task) | 5,777,746 |
+| [public/wasm/vision_wasm_internal.js](public/wasm/vision_wasm_internal.js) | 322,044 |
+| [public/wasm/vision_wasm_internal.wasm](public/wasm/vision_wasm_internal.wasm) | 11,153,617 |
+| [public/wasm/vision_wasm_module_internal.js](public/wasm/vision_wasm_module_internal.js) | 322,082 |
+| [public/wasm/vision_wasm_module_internal.wasm](public/wasm/vision_wasm_module_internal.wasm) | 11,153,641 |
+| [public/wasm/vision_wasm_nosimd_internal.js](public/wasm/vision_wasm_nosimd_internal.js) | 321,847 |
+| [public/wasm/vision_wasm_nosimd_internal.wasm](public/wasm/vision_wasm_nosimd_internal.wasm) | 10,481,398 |
+| [README.md](README.md) | 9,556 |
+| [src/App.tsx](src/App.tsx) | 72,208 |
+| [src/components/BreathRing.tsx](src/components/BreathRing.tsx) | 1,652 |
+| [src/components/PoseArt.tsx](src/components/PoseArt.tsx) | 3,644 |
+| [src/data.ts](src/data.ts) | 4,594 |
+| [src/main.tsx](src/main.tsx) | 404 |
+| [src/services/audio.ts](src/services/audio.ts) | 7,388 |
+| [src/services/audioGraph.ts](src/services/audioGraph.ts) | 8,855 |
+| [src/services/breath.ts](src/services/breath.ts) | 7,172 |
+| [src/services/breathAudio.ts](src/services/breathAudio.ts) | 3,333 |
+| [src/services/camera.ts](src/services/camera.ts) | 763 |
+| [src/services/guide.ts](src/services/guide.ts) | 2,687 |
+| [src/services/posture.ts](src/services/posture.ts) | 4,028 |
+| [src/services/vision.worker.ts](src/services/vision.worker.ts) | 3,910 |
+| [src/styles.css](src/styles.css) | 52,478 |
+| [src/types.ts](src/types.ts) | 1,581 |
+| [src/useVision.ts](src/useVision.ts) | 6,502 |
+| [src/wasm.d.ts](src/wasm.d.ts) | 128 |
+| [TEST-REPORT.md](TEST-REPORT.md) | 4,637 |
+| [tests/adaptive-audio.test.ts](tests/adaptive-audio.test.ts) | 4,573 |
+| [tests/audio-browser.html](tests/audio-browser.html) | 466 |
+| [tests/audio-browser.ts](tests/audio-browser.ts) | 11,033 |
+| [tests/audio.test.ts](tests/audio.test.ts) | 7,762 |
+| [tests/engines.test.ts](tests/engines.test.ts) | 5,323 |
+| [tsconfig.json](tsconfig.json) | 389 |
+| [vite.config.ts](vite.config.ts) | 132 |
+| [artifacts/adaptive-audio-controls.jpg](artifacts/adaptive-audio-controls.jpg) | 46,493 |

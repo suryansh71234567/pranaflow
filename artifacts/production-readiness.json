@@ -1,0 +1,19 @@
+{
+  "framework": "React + TypeScript + Vite",
+  "build": "passed",
+  "automated_tests": 24,
+  "checked_assets": 35,
+  "asset_case_and_existence_issues": [],
+  "environment_variables_required": false,
+  "public_deployment": "successful; https://prana-flow-iko103.vercel.app",
+  "application_localhost_endpoints": [],
+  "dependency_placeholder_urls": {
+    "package": "react-router",
+    "literal": "http://localhost",
+    "count": 2,
+    "review": "URL-parsing fallback constants only; browser history uses window.location origin. They are not app-configured network endpoints."
+  },
+  "git": "local main initialized; no existing history or remote",
+  "vercel_authentication": "authenticated",
+  "github_authentication": "required"
+}

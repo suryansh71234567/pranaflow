@@ -1,0 +1,124 @@
+{
+  "passed": 10,
+  "total": 10,
+  "rows": [
+    {
+      "name": "Stillness audible, unclipped, faded onset",
+      "pass": true,
+      "measurements": {
+        "steady": {
+          "rms": 0.1111329156473879,
+          "peak": 0.27115872502326965,
+          "maxSampleJump": 0.014151323586702347
+        },
+        "beginning": {
+          "rms": 0.000739379924023981,
+          "peak": 0.002791404025629163,
+          "maxSampleJump": 0.00011070884647779167
+        }
+      }
+    },
+    {
+      "name": "Warmth audible, unclipped, faded onset",
+      "pass": true,
+      "measurements": {
+        "steady": {
+          "rms": 0.11042233782524939,
+          "peak": 0.2607327997684479,
+          "maxSampleJump": 0.01435423456132412
+        },
+        "beginning": {
+          "rms": 0.0006706282000434059,
+          "peak": 0.0023874787148088217,
+          "maxSampleJump": 0.00010731426300480962
+        }
+      }
+    },
+    {
+      "name": "Space audible, unclipped, faded onset",
+      "pass": true,
+      "measurements": {
+        "steady": {
+          "rms": 0.10636457844091261,
+          "peak": 0.2658621370792389,
+          "maxSampleJump": 0.018915059976279736
+        },
+        "beginning": {
+          "rms": 0.0005520261763223571,
+          "peak": 0.0020300354808568954,
+          "maxSampleJump": 0.0001268864725716412
+        }
+      }
+    },
+    {
+      "name": "Default output level corrected",
+      "pass": true,
+      "measurements": {
+        "oldRms": 0.009548080843519961,
+        "newRms": 0.11042233782524939,
+        "improvementDb": 21.262817002454433
+      }
+    },
+    {
+      "name": "Mute includes phase chimes",
+      "pass": true,
+      "measurements": {
+        "rms": 0,
+        "peak": 0,
+        "maxSampleJump": 0
+      }
+    },
+    {
+      "name": "Zero volume is digital silence",
+      "pass": true,
+      "measurements": {
+        "rms": 0,
+        "peak": 0,
+        "maxSampleJump": 0
+      }
+    },
+    {
+      "name": "Maximum volume retains unclipped headroom",
+      "pass": true,
+      "measurements": {
+        "rms": 0.284449210474821,
+        "peak": 0.6857759952545166,
+        "maxSampleJump": 0.050025731325149536
+      }
+    },
+    {
+      "name": "Pause fade reaches silence",
+      "pass": true,
+      "measurements": {
+        "rms": 0,
+        "peak": 0,
+        "maxSampleJump": 0
+      }
+    },
+    {
+      "name": "Profile morph has no hard sample discontinuities",
+      "pass": true,
+      "measurements": {
+        "rms": 0.09984529827357623,
+        "peak": 0.25950300693511963,
+        "maxSampleJump": 0.0184575654566288
+      }
+    },
+    {
+      "name": "90-second continuity across noise-buffer boundaries",
+      "pass": true,
+      "measurements": {
+        "continuity": {
+          "rms": 0.10029432185697404,
+          "peak": 0.2314208298921585,
+          "maxSampleJump": 0.014132682234048843
+        },
+        "end": {
+          "rms": 0.10432741694556777,
+          "peak": 0.25279590487480164,
+          "maxSampleJump": 0.01651080697774887
+        }
+      }
+    }
+  ]
+}
